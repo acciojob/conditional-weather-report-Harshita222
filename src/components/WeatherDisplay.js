@@ -6,8 +6,8 @@ const WeatherDisplay = ({ weatherData }) => {
   const tempColor = temperature > 20 ? "red" : "blue";
   return (
     <div>
-      <p style={{ color: tempColor }}>Temperature: {temperature}°C</p>
-      <p>Conditions: {conditions}</p>
+      <span style={{ color: tempColor }}>Temperature: {temperature}</span>
+      <span>Conditions: {conditions}</span>
     </div>
   );
 };
