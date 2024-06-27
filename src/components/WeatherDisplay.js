@@ -9,8 +9,6 @@ const WeatherDisplay = ({ weatherData }) => {
       <div>
         <p>
           <span style={{ color: tempColor }}>Temperature: {temperature}</span>
-        </p>
-        <p>
           <span style={{ color: tempColor }}>Conditions: {conditions}</span>
         </p>
       </div>
